@@ -1,12 +1,11 @@
 
-import os
 import requests
 import json
 from tqdm import tqdm
 
-api_key = os.environ['api_key']
-cx = os.environ['cx']
-query ='bear'
+api_key = "Your API Key(get it from provided link)"
+cx = "Your CX (get it from provided link)"
+query ='bear'#sample query
 
 def google_image_search(api_key: str,cx: str ,query: str) -> None:
 
